@@ -1,0 +1,143 @@
+body{
+	font-family: "Montserrat-black";
+
+
+}
+#title{
+	background-color: #A7C4BC;
+	color: #fff;
+}
+#title h1{
+	font-family: 'Montserrat-black', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #343A40;
+	font-weight: 700;
+
+}
+#title .container-fluid{
+	
+	padding: 3% 15%;
+}
+#title .navbar-brand{
+	font-family: 'Festive', cursive;
+	font-size: 3rem;
+}
+#title .navbar{
+	padding:0 0  2.5rem 0 ;
+}
+.nav-item{
+	padding: 20px;
+}
+#title .nav-item .nav-link{
+	font-size: 1.5rem;
+	font-family: "Montserrat-light";
+	
+
+}
+.download-button{
+	margin: 7% 1% 7% 0;
+}
+.title-image{
+	width: 60%;
+	transform: rotate(27deg);
+	margin-left: 150px;
+}
+#features{
+	padding: 7% 15%;
+	background-color: #ECEFFF;
+}
+.feature-box{
+	text-align: center;
+	padding: 7%;
+}
+h3{
+	font-family: "Montserrat-Black";
+	font-weight: 450;
+}
+p{color: #8f8f8f;}
+.icon{
+	color: #A7C4BC;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #334257;
+}
+.feature-box p{
+	padding: 30px;
+}
+.feature{
+	margin: 15px;
+}
+
+
+
+#title .navbar .nav-link:hover{
+	text-decoration: underline;
+	color: #A239EA;
+}
+/*Testitmmonial Section*/
+#testimonials{
+	
+	text-align: center;
+	background-color: #A7C4BC;
+	color: #343A40;
+}
+#testimonials h2{
+	font-family: "Montserrat-bold";
+	font-weight: 800;
+	font-size: 2.7rem;
+	line-height: 1.5;
+}
+#testimonials .img1{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press{
+	background-color: #A7C4BC;
+	color: #343A40;	
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+#press img{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+/*pricing section*/
+#pricing{
+	padding: 100px;
+}
+.pricing-column{
+	padding: 3% 2%;
+
+}
+@media (max-width: 1024px){
+	.title-image{
+		transform: rotate(0);
+		margin-left:-10px ;
+	}
+	#title {
+		text-align: center;
+
+	}
+}
+#cta{
+	text-align: center;
+	background-color: #161616;
+	margin-bottom: 0;
+	color: #fff;
+
+}
+#cta h3{
+	padding-top: 6%;
+	padding-bottom: 0;
+}
+#cta .btn{
+	padding-top: 0;
+	margin-top: 17px ;
+}
