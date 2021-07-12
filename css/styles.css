@@ -141,3 +141,10 @@ padding: 7% 15%;
 	padding-top: 0;
 	margin-top: 17px ;
 }
+#pricing{
+	text-align:center;
+}
+#pricing h2{
+	font-weight:bold;
+	font-size:37px
+}
